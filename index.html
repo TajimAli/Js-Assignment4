@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+// Q.1 Create the Example for Logical Operators. 
+	// Logical Operators (&&, ||, !), it is binary operator which require two operants. We can use it in 
+	// Comparison Operators
+    // Examole:
+	// let a = 5;
+	// let b = 7;
+	// let c = 10;
+	// console.log(`a is smallest among these: ${a<b && b<c}`);
+    //  output: true
+
+// Q.2	Difference between “ == “ and “ === “ operators.
+
+    // The == operator is an equality operator. It checks whether its two operands are the same or not by changing expression from one data type
+    // to others. You can use == operator in order to compare the identity of two operands even though, they are not of a similar type.
+
+    //  “ === “ is Strict equality === checks that two values are the same or not.
+    //  Value are not implicitly converted to some other value before comparison.
+    //  If the variable values are of different types, then the values are considered as unequal.
+    //  If the variable are of the same type, are not numeric, and have the same value, they are considered as equal.
+    //  Lastly, If both variable values are numbers, they are considered equal if both are not NaN (Not a Number) and are the same value.
+
+    //  let num = 22;
+    //  let str = "22";
+    //  console.log(`Both are same: ${num == str}`); 
+    //  output: true
+    
+    //  console.log(`Both are same: ${num === str}`);
+    //  output: false
+
+
+// Q.3 How many operators do we have in JS ?
+    // 	There are so many operators in js
+    // 	1: Assignment Operators
+    // 	2: Arithmetic Operators
+    // 	3: Comparison Operators
+    // 	4: Logical Operators
+    // 	5: Bitwise Operators
+    // 	6:Ternary Operators
+
+// Q.4 What is use of parseInt in js?
+    // 	parseInt is a method to convert string value into number.
+    // 	let str = "123";
+    // 	typeof(str);
+    //  output: string
+
+    // 	let num = parseInt(str);
+    // 	typeof(num);
+    //  output: number
+
+// Q.5 Take input from user and find the odd and even number.
+
+    // 	let a = parseInt(prompt("Enter Your Number"));
+	
+    // 	if(a%2==0){
+    // 		console.log(`${a} is even`)
+    // 	}
+    // 	else{
+    // 		console.log(`${a} is odd`)
+    // 	}
+
+    </script>
+</body>
+</html>
